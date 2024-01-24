@@ -1,7 +1,7 @@
 export default {
-    name: 'projects',
+    name: 'development',
     type: 'document',
-    title: 'Projects',
+    title: 'Development',
     fields: [
         {
             name: 'name',
@@ -10,18 +10,8 @@ export default {
         },
         {
             name: 'description',
-            type: 'array',
-            title: 'Description',
-            of: [
-                {
-                    type: 'block'
-                }
-            ]
-        },
-        {
-            name: 'tag',
             type: 'string',
-            title: 'Tag',
+            title: 'Description',
         },
         {
             name: 'image',
@@ -32,7 +22,7 @@ export default {
             },
             fields: [
                 {
-                    name: 'caption',
+                    name: 'caption',    
                     type: 'string',
                     title: 'Caption',
                 }
