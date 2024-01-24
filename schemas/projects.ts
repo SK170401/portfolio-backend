@@ -25,8 +25,8 @@ export default {
         },
         {
             name: 'link',
+            title: 'Project URL',
             type: 'string',
-            title: 'Link',
         },
         {
             name: 'image',
