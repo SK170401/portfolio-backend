@@ -28,6 +28,7 @@ export default {
             title: 'Project URL',
             type: 'string',
         },
+        
         {
             name: 'image',
             type: 'image',
