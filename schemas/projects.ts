@@ -24,6 +24,11 @@ export default {
             title: 'Tag',
         },
         {
+            name: 'link',
+            type: 'string',
+            title: 'Link',
+        },
+        {
             name: 'image',
             type: 'image',
             title: 'Image',
