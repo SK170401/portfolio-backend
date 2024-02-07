@@ -26,7 +26,7 @@ export default {
         {
             name: 'link',
             title: 'Project URL',
-            type: 'string',
+            type: 'url',
         },
         
         {
